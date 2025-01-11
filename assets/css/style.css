@@ -11,3 +11,41 @@
 *{
     font-family: "Epilogue", serif;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header-Start */
+
+header {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    background-image: linear-gradient(to right, rgb(88, 140, 66), rgb(24, 38, 18));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.placeholder_logo {
+    height: 40px;
+    width: auto;
+    margin-left: 15px;
+}
+
+.rsok_logo {
+    height: 80px;
+    width: auto;
+}
+
+.login_logo {
+    height: 40px;
+    width: auto;
+    margin-right: 15px;
+    fill: #FFFFFF;
+}
+
+
+/* Header-End */
