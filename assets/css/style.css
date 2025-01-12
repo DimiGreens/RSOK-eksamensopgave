@@ -187,3 +187,23 @@ footer img {
 }
 
 /* Footer-End */
+
+/*  */
+/* Arni's kodning */
+/*  */
+
+main{
+    line-height: 1.5;
+}
+
+Main {
+    margin: 25px;
+}
+
+Main .sportforalle{
+    color: var(--freshMint);
+}
+
+main .voksneogfamilier{
+    color: var(--deepForest);
+}
