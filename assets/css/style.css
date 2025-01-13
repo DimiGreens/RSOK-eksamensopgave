@@ -215,3 +215,13 @@ main #børnOgUnge{
 main #RSOKerne{
     color: var(--deepForest);
 }
+
+main .sportForAlleBillede1{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+main .sportForAlleBilledeDesktop{
+    display: none;
+}
