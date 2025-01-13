@@ -179,7 +179,7 @@ footer img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 25px;
+    gap: 20px;
 }
 
 .end_me img {
@@ -220,3 +220,43 @@ main .okort{
     text-align: center;
     color: var(--freshMint);
 }
+
+/* Underside: Nyheder - Start */
+
+.Nyheder_side h1 {
+    color: var(--freshMint);
+    font-size: 20px;
+}
+
+.Nyheder_side h2 {
+    color: var(--deepForest);
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.Nyheder_side h1, h2, p {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.Nyheder_side {
+    margin: 0;
+}
+
+.Nyheder_side p {
+    padding-bottom: 10px;
+}
+
+.Nyheder_side section {
+    background-color: #D9D9D9;
+}
+
+.Nyhed_3 img {
+    height: 20px;
+    width: 10%;
+    float: right;
+    padding-bottom: 15px;
+    scroll-behavior: smooth;
+}
+
+/* Underside: Nyheder - End */
