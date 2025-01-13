@@ -204,6 +204,14 @@ Main .sportforalle{
     color: var(--freshMint);
 }
 
-main .voksneogfamilier{
+main #voksneOgFamilier{
+    color: var(--deepForest);
+}
+
+main #børnOgUnge{
+    color: var(--deepForest);
+}
+
+main #RSOKerne{
     color: var(--deepForest);
 }
