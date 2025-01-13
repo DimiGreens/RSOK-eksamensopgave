@@ -196,6 +196,16 @@ main{
     line-height: 1.5;
 }
 
+main .oKortBilledeDesktop{
+    display: none;
+}
+
+main .okortbillede{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
 Main {
     margin: 25px;
 }
@@ -224,4 +234,9 @@ main .sportForAlleBillede1{
 
 main .sportForAlleBilledeDesktop{
     display: none;
+}
+
+  main .okort{
+    text-align: center;
+    color: var(--freshMint);
 }
