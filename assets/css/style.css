@@ -234,6 +234,72 @@ main .okort {
   color: var(--freshMint);
 }
 
+/*Kontakter*/
+h1 {
+  color: var(--freshMint);
+  text-align: center;
+}
+
+h2 {
+  margin-left: 50px;
+  color: var(--deepForest);
+}
+
+.RSOKbestyrelse {
+  margin-left: 50px;
+}
+
+.RSOKbestyrelse article {
+  margin-bottom: 70px;
+}
+
+.RSOKbestyrelse img {
+  width: 200px;
+  height: 200px;
+}
+
+.Kontaktpersoner {
+  margin: 50px;
+}
+
+.Kontaktpersoner article {
+  margin-bottom: 70px;
+}
+.Kontaktpersoner img {
+  width: 200px;
+  height: 200px;
+}
+
+.Udvalg {
+  margin: 50px;
+}
+
+.Udvalg article {
+  margin-bottom: 70px;
+}
+
+.Udvalg img {
+  width: 200px;
+  height: 200px;
+}
+
+main #voksneOgFamilier {
+  color: var(--deepForest);
+}
+
+main #børnOgUnge {
+  color: var(--deepForest);
+}
+
+main #RSOKerne {
+  color: var(--deepForest);
+}
+
+main .okort {
+  text-align: center;
+  color: var(--freshMint);
+}
+
 main .kontingentHeader{
   color: var(--freshMint);
   text-align: center;
