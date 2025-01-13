@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+   --deepForest: hsl(81, 100%, 14%);
+   --fernLeaf: hsl(102, 36%, 40%);
+   --freshMint: hsl(103, 33%, 57%);
+   --clearSky: hsl(197, 71%, 73%);
+   --paleStone: hsl(46, 46%, 93%);
+}
+
+*{
+    font-family: "Epilogue", serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header-Start */
+
+header {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    background-image: linear-gradient(to right, rgb(88, 140, 66), rgb(24, 38, 18));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.placeholder_logo {
+    height: 40px;
+    width: auto;
+    margin-left: 15px;
+}
+
+.rsok_logo {
+    height: 80px;
+    width: auto;
+}
+
+.login_logo {
+    height: 40px;
+    width: auto;
+    margin-right: 15px;
+    fill: #FFFFFF;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    height: 75px;
+    /* background-color: red; */
+    padding: 15px 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.dropdown{
+    background-image: url(../images/logo/bars-solid.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 25px;
+    margin-left: 25px;
+}
+
+.dropdown ul {
+    display: none;
+    position: absolute;
+    list-style: none;
+    text-align: left;
+    background-color: var(--deepForest);
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown ul li {
+    cursor: pointer;
+    margin: 1.5rem;
+}
+
+/* Kalender */
+.dropdown ul li:nth-of-type(3) {
+    line-height: 2;
+}
+
+/* Klubaktiviteter */
+.dropdown ul li:nth-of-type(4) {
+    line-height: 0;
+}
+
+/* Træningsløb */
+.dropdown ul li:nth-of-type(5) {
+    line-height: 0;
+}
+
+/* Sport for alle aldre */
+.dropdown ul li:nth-of-type(6) {
+    line-height: 0;
+}
+
+/* Praktisk info */
+.dropdown ul li:nth-of-type(7) {
+    margin-bottom: -10px;
+}
+
+/* O-kort */
+.dropdown ul li:nth-of-type(8) {
+    line-height: 0;
+}
+
+/* Kontakter */
+.dropdown ul li:nth-of-type(9) {
+    line-height: 0;
+}
+
+/* Indmeldelse */
+.dropdown ul li:nth-of-type(11) {
+    line-height: 0;
+}
+
+/* Nyt medlem */
+.dropdown ul li:nth-of-type(12) {
+    line-height: 0;
+}
+
+/* Kontingent */
+.dropdown ul li:nth-of-type(13) {
+    line-height: 0;
+}
+
+.dropdown ul li a {
+    color: inherit;
+    text-decoration: none;
+    color: white;
+    margin: 1rem;
+}
+
+input[type=checkbox]:checked~ul {
+    display: block;
+}
+
+/* Header-End */
+
+/* Forside - Main-Start */
+
+
+/* Forside - Main-End */
+
+/* Footer-Start */
+footer {
+    background-color: var(--freshMint);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+}
+
+.logoer_og_sponsor {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+footer img {
+    height: 35px;
+}
+
+.end_me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.end_me img {
+    width: 59px;
+}
+
+/* Footer-End */
+
+/*  */
+/* Arni's kodning */
+/*  */
+
+main{
+    line-height: 1.5;
+}
+
+Main {
+    margin: 25px;
+}
+
+Main .sportforalle{
+    color: var(--freshMint);
+}
+
+main #voksneOgFamilier{
+    color: var(--deepForest);
+}
+
+main #børnOgUnge{
+    color: var(--deepForest);
+}
+
+main #RSOKerne{
+    color: var(--deepForest);
+}
