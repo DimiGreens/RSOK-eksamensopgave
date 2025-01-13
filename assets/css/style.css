@@ -234,6 +234,24 @@ main .okort {
   color: var(--freshMint);
 }
 
+main .kontingentHeader{
+  color: var(--freshMint);
+  text-align: center;
+  justify-content: center;
+}
+
+main .tabelSektion{
+  display: flex;
+  justify-content: center;
+}
+
+main .kontingentTabel, th, td{
+  border: 1px solid black;
+}
+
+main .kontingentTekst{
+  text-align: center;
+}
 
 /* Debbie's kodning */
 
@@ -441,6 +459,23 @@ main .sportForAlleBilledeDesktop{
 
     main #gåTur{
       grid-column: 5 / span 4;
+    }
+
+    main .kontingentHeader{
+      grid-row: 1;
+      grid-column: 5 / 9;
+    }
+
+    main .kontingentTekst{
+      grid-column: 4 / 10;
+    }
+
+    main .kontingentTekst:nth-of-type(3){
+      grid-row: 2;
+    }
+
+    main .tabelSektion{
+      grid-column: 4 / 10;
     }
 
 }
