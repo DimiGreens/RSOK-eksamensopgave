@@ -488,6 +488,85 @@ main .sportForAlleBilledeDesktop{
 
 .Traeningsloeb_side_tekst h1 {
     color: var(--freshMint);
+
+}
+
+/* Underside: Nyt Medlem - Start */
+
+.nyt_Medlem_side h1 {
+    text-align: center;
+    color: var(--fernLeaf);
+}
+
+.nyt_Medlem_side h2 {
+    color: var(--deepForest);
+}
+
+.nyt_Medlem_side p {
+    margin-top: 0;
+}
+
+.nyt_Medlem_side section {
+    padding-bottom: 10px;
+}
+
+.placeholder_1 {
+    background-image: url(./assets/images/logo/handshake-angle-solid.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.placeholder_2 {
+    background-image: url(./assets/images/logo/id-card-clip-solid.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.placeholder_3 {
+    background-image: url(./assets/images/logo/circle-regular.svg);
+    background-image: url(./assets/images/logo/circle-half-stroke-solid.svg);
+    background-image: url(./assets/images/logo/circle-solid.svg);
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    gap: 1rem;
+}
+
+.placeholder_4 {
+    background-image: url(./assets/images/logo/person-hiking-solid.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.placeholder_5 {
+    background-image: url(./assets/images/logo/map-location-dot-solid.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+/* Underside: Nyt Medlem - End */
+
     font-size: 20px;
     text-align: center;
 }
@@ -539,4 +618,5 @@ main .sportForAlleBilledeDesktop{
 
 
 /* Underside: Træningsløb - End */
+
 
