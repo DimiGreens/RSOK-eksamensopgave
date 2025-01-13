@@ -215,3 +215,8 @@ main #børnOgUnge{
 main #RSOKerne{
     color: var(--deepForest);
 }
+
+main .okort{
+    text-align: center;
+    color: var(--freshMint);
+}
