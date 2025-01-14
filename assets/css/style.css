@@ -14,7 +14,32 @@
 
 body {
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
+  background-color: var(--paleStone);
+}
+
+main {
+  margin: 1rem;
+}
+
+/* General Typografi Regler Mobil Version */
+
+h1 {
+  font-size: 1.5rem;
+  color: var(--freshMint);
+}
+
+h2 {
+  font-size: 1.3rem;
+  color: var(--deepForest);
+  margin: 1rem;
+
+}
+
+p {
+  font-size: 1rem;
+  max-width: 60ch;
+  margin: 1rem;
 }
 
 /* Header-Start */
@@ -171,18 +196,22 @@ footer {
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
-  gap: 25px;
+  gap: 15px;
 }
 
 footer img {
   height: 35px;
 }
 
+footer p {
+  font-size: 11px;
+}
+
 .end_me {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
 }
 
 .end_me img {
@@ -200,88 +229,105 @@ main {
 }
 
 main .oKortBilledeDesktop{
-    display: none;
+  display: none;
 }
 
 main .okortbillede{
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
 }
 
-Main {
-  margin: 25px;
+main .okort {
+  text-align: center;
+  color: var(--freshMint);
+}
+
+.okort_underside p {
+  margin: 1rem;
+}
+
+/* Main underside: Sport for alle aldre */
+
+.for_Alle_Aldre p {
+  margin: 1rem;
 }
 
 Main .sportforalle {
   color: var(--freshMint);
 }
 
-main #voksneOgFamilier {
-  color: var(--deepForest);
+.for_Alle_Aldre > a {
+  margin: 1rem;
 }
 
-main #børnOgUnge {
-  color: var(--deepForest);
-}
-
-main #RSOKerne {
-  color: var(--deepForest);
-}
-
-main .okort {
-  text-align: center;
-  color: var(--freshMint);
-}
 
 /*Kontakter*/
-h1 {
-  color: var(--freshMint);
+.kontakter_underside h1 {
+  /* color: var(--freshMint); */
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 h2 {
-  margin-left: 50px;
-  color: var(--deepForest);
+  /* margin-left: 50px; */
+  /* color: var(--deepForest); */
 }
 
-.RSOKbestyrelse {
+/* .RSOKbestyrelse {
   margin-left: 50px;
-}
+} */
 
-.RSOKbestyrelse article {
+/* .RSOKbestyrelse article {
   margin-bottom: 70px;
-}
+} */
 
-.RSOKbestyrelse img {
+.kontakter_underside img {
   width: 200px;
   height: 200px;
 }
 
-.Kontaktpersoner {
+.kontakter_underside p {
+  margin: 1rem;
+}
+
+.kontakter_underside article {
+  margin-bottom: 3.5rem;
+}
+
+.kontakter_underside h2:nth-of-type(1) {
+  margin-top: 3rem;
+}
+
+/* .Kontaktpersoner {
   margin: 50px;
-}
+} */
 
-.Kontaktpersoner article {
+/* .Kontaktpersoner article {
   margin-bottom: 70px;
-}
-.Kontaktpersoner img {
+} */
+
+/* .kontakter_underside p {
+  margin: 0;
+} */
+
+/* .Kontaktpersoner img {
   width: 200px;
   height: 200px;
-}
+} */
 
 .Udvalg {
-  margin: 50px;
+  text-align: left;
 }
 
-.Udvalg article {
+/* .Udvalg article {
   margin-bottom: 70px;
-}
+} */
 
-.Udvalg img {
+/* .Udvalg img {
   width: 200px;
   height: 200px;
-}
+} */
 
 main #voksneOgFamilier {
   color: var(--deepForest);
@@ -295,10 +341,6 @@ main #RSOKerne {
   color: var(--deepForest);
 }
 
-main .okort {
-  text-align: center;
-  color: var(--freshMint);
-}
 
 main .kontingentHeader{
   color: var(--freshMint);
@@ -316,7 +358,7 @@ main .kontingentTabel, th, td{
 }
 
 main .kontingentTekst{
-  text-align: center;
+  /* text-align: center; */
 }
 
 /* Debbie's kodning */
@@ -341,47 +383,51 @@ main .sportForAlleBilledeDesktop{
     display: none;
 }
 
-  main .okort{
-    text-align: center;
-    color: var(--freshMint);
-}
 
 /* Underside: Nyheder - Start */
 
-.Nyheder_side h1 {
-    color: var(--freshMint);
-    font-size: 20px;
-}
+/* .Nyheder_side {
+    margin: 0;
+} */
 
 .Nyheder_side h2 {
-    color: var(--deepForest);
-    font-size: 18px;
-    padding-top: 10px;
+  margin: 0px;
+  margin-bottom: 1rem;
 }
 
-.Nyheder_side h1, h2, p {
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-.Nyheder_side {
-    margin: 0;
-}
-
-.Nyheder_side p {
-    padding-bottom: 10px;
-}
+/* .Nyheder_side p {
+    padding-bottom: 1rem;
+} */
 
 .Nyheder_side section {
     background-color: #D9D9D9;
+    padding: 1rem;
+    margin: 1rem;
 }
 
-.Nyhed_3 img {
+.Nyheder_side p {
+  margin: 0px;
+}
+
+/* .Nyhed_3 img {
     height: 20px;
     width: 10%;
     float: right;
     padding-bottom: 15px;
     scroll-behavior: smooth;
+} */
+
+.pil_op {
+  height: 50px;
+  width: 50px;
+  float: right;
+  padding-bottom: 15px;
+  border-radius: 50px;
+}
+
+.pil_op a img {
+  height: 50px;
+  width: 50px;
 }
 
 /* Underside: Nyheder - End */
@@ -548,24 +594,60 @@ main .sportForAlleBilledeDesktop{
 
 /* Underside: Træningsløb - Start */
 
-.Traeningsloeb_side {
-    margin: 0;
+.traeningsloeb_underside p {
+  margin: 1rem;
 }
 
-.Traeningsloeb_side_tekst h1 {
-    color: var(--freshMint);
-
+main .fep_2 {
+  background-color: var(--clearSky);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
 }
+
+.fep_2 img {
+  /* object-position: bottom; */
+  object-fit: cover;
+  height: 200px;
+}
+
+.fep_2 p {
+  margin: 20px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  /* font-size: 14px; */
+}
+
+.fep_2 button {
+  background-color: #787878;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.fep_2 button a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+/* Underside: Træningsløb - End */
+
 
 /* Underside: Nyt Medlem - Start */
 
 .nyt_Medlem_side h1 {
     text-align: center;
-    color: var(--fernLeaf);
+    /* color: var(--fernLeaf); */
 }
 
 .nyt_Medlem_side h2 {
-    color: var(--deepForest);
+    /* color: var(--deepForest); */
+    margin-bottom: 0px;
 }
 
 .nyt_Medlem_side p {
@@ -631,58 +713,76 @@ main .sportForAlleBilledeDesktop{
     width: 30%;
 }
 
+.nyt_Medlem_side section {
+  margin-bottom: 1.75rem;
+}
+
 /* Underside: Nyt Medlem - End */
 
-    font-size: 20px;
-    text-align: center;
+
+
+/* Forside - Start */
+
+.forside {
+  margin: 1rem;
 }
 
-.Traeningsloeb_side_tekst p {
-    text-align: left;
-    padding: 10px;
+.forside h1 {
+  font-size: 24px;
 }
 
-.fep_o_kort {
-    display: flex;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    height: 150px;
-    width: 100%;
-    margin: 0;
-    margin-bottom: 30px;
+.forside h2 {
+  font-size: 18px;
 }
 
-.fep_o_kort img {
-    flex: 1;
-    object-fit: cover;
-    height: 1h;
+main .forside_billeder {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  object-position: top;
+  /* margin-bottom: 30px; */
 }
 
-.fep_o_kort_tekstboks {
-    flex: 1;
-    padding: 10px;
-    background-color: var(--clearSky);
-    font-size: 14px;
+main .fep_1 {
+  background-color: var(--clearSky);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
 }
 
-.o_kort_knap {
-    background-color: #787878;
-    border-radius: 10px;
-    text-align: center;
-    padding: 10px 25px;
-    /* margin-left: 15px; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 5em;
+.fep_1 img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
-.o_kort_knap a {
-    text-decoration: none;
-    color: #FFFFFF;
+.forside p, .forside h2 {
+  margin: 1rem;
 }
 
 
+.fep_1 p {
+  margin: 20px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  /* font-size: 14px; */
+}
 
-/* Underside: Træningsløb - End */
+.fep_1 button {
+  background-color: #787878;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10em;
+  margin-bottom: 10px;
+  text-align: center;
+}
 
+.fep_1 button a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
 
+/* Forside - End */
