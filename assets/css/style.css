@@ -228,6 +228,7 @@ main {
   line-height: 1.5;
 }
 
+
 main .oKortBilledeDesktop{
   display: none;
 }
@@ -353,6 +354,7 @@ main .tabelSektion{
   justify-content: center;
 }
 
+
 main .kontingentTabel, th, td{
   border: 1px solid black;
 }
@@ -363,26 +365,26 @@ main .kontingentTekst{
 
 /* Debbie's kodning */
 
+/* Siden Links kodning CSS */
+
 main .linksOverskrift {
   color: var(--fernLeaf);
   text-align: center;
 }
 
-main .tableLinks
-td {
-  border: 1px solid black;
+.sectionLinks h2 {
+  line-height: 0;
 }
 
-main .sportForAlleBillede1{
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
+.sectionLinks p {
+  margin-bottom: 4rem;
 }
 
-main .sportForAlleBilledeDesktop{
-    display: none;
+main .sportForAlleBillede1 {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
 }
-
 
 /* Underside: Nyheder - Start */
 
@@ -590,9 +592,18 @@ main .sportForAlleBilledeDesktop{
       grid-column: 4 / 10;
     }
 
+main .sportForAlleBilledeDesktop {
+  display: none;
+}
+
+main .okort {
+  text-align: center;
+  color: var(--freshMint);
+
 }
 
 /* Underside: Træningsløb - Start */
+
 
 .traeningsloeb_underside p {
   margin: 1rem;
@@ -786,3 +797,60 @@ main .fep_1 {
 }
 
 /* Forside - End */
+=======
+.Traeningsloeb_side {
+  margin: 0;
+}
+
+.Traeningsloeb_side_tekst h1 {
+  color: var(--freshMint);
+  font-size: 20px;
+  text-align: center;
+}
+
+.Traeningsloeb_side_tekst p {
+  text-align: left;
+  padding: 10px;
+}
+
+.fep_o_kort {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 150px;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.fep_o_kort img {
+  flex: 1;
+  object-fit: cover;
+  height: 1h;
+}
+
+.fep_o_kort_tekstboks {
+  flex: 1;
+  padding: 10px;
+  background-color: var(--clearSky);
+  font-size: 14px;
+}
+
+.o_kort_knap {
+  background-color: #787878;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 25px;
+  /* margin-left: 15px; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 5em;
+}
+
+.o_kort_knap a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Underside: Træningsløb - End */
+
