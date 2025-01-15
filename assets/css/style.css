@@ -471,25 +471,22 @@ main .linksOverskrift {
   text-align: center;
 }
 
-.sectionLinks h2 {
-  line-height: 0;
-}
-
 .sectionLinks p {
   margin-bottom: 4rem;
 }
 
-/* main .sportForAlleBillede1 {
-  width: 100%;
-  height: 220px;
-  object-fit: cover;
-} */
+.links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links section{
+  margin-bottom: 3rem;
+}
+
 
 /* Underside: Nyheder - Start */
-
-/* .Nyheder_side {
-    margin: 0;
-} */
 
 .Nyheder_side h2 {
   margin: 0px;
@@ -1000,6 +997,19 @@ main .linksOverskrift {
 
     .kontakter_underside h2{
       margin-top: 3rem;
+    }
+
+
+
+    /* media queries for Links siden */
+
+    .links{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .links section{
+      grid-column: 2;
     }
 
   }
