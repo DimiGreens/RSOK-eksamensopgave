@@ -6,6 +6,7 @@
   --freshMint: hsl(103, 33%, 57%);
   --clearSky: hsl(197, 71%, 73%);
   --paleStone: hsl(46, 46%, 93%);
+  scroll-behavior: smooth;
 }
 
 * {
@@ -130,7 +131,6 @@ label {
   line-height: 0;
 }
 
-/* Sport for alle aldre */
 .dropdown ul li:nth-of-type(6) {
   line-height: 0;
 }
@@ -303,7 +303,34 @@ main .okort {
 
 /* Main underside: Sport for alle aldre */
 
-.for_Alle_Aldre p {
+.for_Alle_Aldre .forAlleAldreBillede1 {
+  background-image: url(../images/logo/voksneDamerDerSmilerTilKameraet.jpg);
+  height: 250px;
+  width: 100%;
+  background-position: top;
+  background-size: cover;
+  margin-bottom: 3rem;
+}
+
+.for_Alle_Aldre .forAlleAldreBillede3{
+  background-image: url(../images/logo/børnDerHarVundetMedaljer.jpg);
+  height: 250px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3rem;
+}
+
+.for_Alle_Aldre .forAlleAldreBillede5{
+  background-image: url(../images/logo/ældrePåKanotur.jpg);
+  height: 250px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3rem;
+}
+
+.for_Alle_Aldre h1{
   margin: 1rem;
 }
 
@@ -315,6 +342,17 @@ Main .sportforalle {
   margin: 1rem;
 }
 
+main #voksneOgFamilier {
+  color: var(--deepForest);
+}
+
+main #børnOgUnge {
+  color: var(--deepForest);
+}
+
+main #RSOKerne {
+  color: var(--deepForest);
+}
 
 /*Kontakter*/
 .kontakter_underside h1 {
@@ -383,17 +421,6 @@ h2 {
   height: 200px;
 } */
 
-main #voksneOgFamilier {
-  color: var(--deepForest);
-}
-
-main #børnOgUnge {
-  color: var(--deepForest);
-}
-
-main #RSOKerne {
-  color: var(--deepForest);
-}
 
 
 main .kontingentHeader{
@@ -433,11 +460,11 @@ main .linksOverskrift {
   margin-bottom: 4rem;
 }
 
-main .sportForAlleBillede1 {
+/* main .sportForAlleBillede1 {
   width: 100%;
   height: 220px;
   object-fit: cover;
-}
+} */
 
 /* Underside: Nyheder - Start */
 
@@ -492,7 +519,7 @@ main .sportForAlleBillede1 {
 
     .forside h1{
       grid-row: 1;
-      grid-column: 5 / 9;
+      grid-column: 5 / 10;
     }
 
 
@@ -653,10 +680,143 @@ main .sportForAlleBillede1 {
     }
 
     
+    /* Media Queries for Sport for alle aldre */
+
+    .for_Alle_Aldre{
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 2rem;
+    }
+
+    .for_Alle_Aldre .sportforalle{
+      grid-column: 6 / 8;
+    }
+
+    .for_Alle_Aldre .linkTekst{
+      grid-column: 4 / span 2;
+    }
+
+    .for_Alle_Aldre #voksneOgFamilier{
+      grid-row: 1;
+    }
+      
+    .for_Alle_Aldre .voksneOgFamilierSektion{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      grid-row: 4;
+      grid-column: 3 / 11;
+    }
+
+    .for_Alle_Aldre .forAlleAldreBillede1{
+      grid-row: 2 / 4;
+      grid-column: 2;
+      height: 100%;
+    }
+
+    .for_Alle_Aldre .voksneOgFamilierSektion p:nth-of-type(1){
+      grid-row: 2;
+      grid-column: 1;
+    }
+    .for_Alle_Aldre .voksneOgFamilierSektion p:nth-of-type(2){
+      grid-row: 3;
+      grid-column: 1;
+    }
+
+    .for_Alle_Aldre .forAlleAldreBillede2{
+      background-image: url(../images/logo/familieDerKiggerPåO-kort.jpg);
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 500px;
+      grid-column: 4 / 10;
+      grid-row: 5;
+    }
+
+
+    .for_Alle_Aldre .børnOgUngeSektionen{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      grid-row: 6;
+      grid-column: 3 / 11;
+    }
+
+    .for_Alle_Aldre .børnOgUngeSektionen h2{
+      grid-row: 1;
+    }
+
+    .for_Alle_Aldre .børnOgUngeSektionen p{
+      grid-column: 1;
+    }
+
+    .for_Alle_Aldre .forAlleAldreBillede4{
+      background-image: url(../images/logo/2GladePiger.jpg);
+      background-size: cover;
+      background-position: center;
+      grid-column: 2;
+      grid-row: 2 / 6;
+      margin: 1rem;
+    }
+
+    .for_Alle_Aldre .forAlleAldreBillede3{
+      background-position: top;
+      grid-column: 1 / -1;
+      grid-row: 7;
+      height: 450px;
+      margin: 1rem;
+    }
+    
+    .for_Alle_Aldre .RSOKerneSektionen{
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 1rem;
+      grid-row: 7;
+      grid-column: 1 / -1;
+    }
+
+    .for_Alle_Aldre .RSOKerneSektionen #RSOKerne{
+      grid-row: 1;
+      grid-column: 5 / 9;
+    }
+
+    .for_Alle_Aldre .RSOKerneSektionen p{
+      grid-column: 5 / 9;
+    }
+
+    .for_Alle_Aldre .RSOKerneSektionen .forAlleAldreBillede5{
+      grid-row: 5;
+      grid-column: 4 / 6;
+      height: 300px;
+    }
+
+    .for_Alle_Aldre .RSOKerneSektionen .forAlleAldreBillede6{
+      background-image: url(../images/logo/ældrePåTur.jpg);
+      background-position: center;
+      background-size: cover;
+      grid-row: 5;
+      grid-column: 6 / 8;
+      height: 300px;
+    }
+
+    .for_Alle_Aldre .RSOKerneSektionen .forAlleAldreBillede7{
+      background-image: url(../images/logo/ældreDerSpiserMadpakker.jpg);
+      background-position: center;
+      background-size: cover;
+      grid-row: 5;
+      grid-column: 8 / 10;
+      height: 300px;
+    }
 
 
 
 
+
+    .okort_underside{
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 2rem;
+    }
 
     main .okort{
         grid-column: 6 / 8;
@@ -665,17 +825,17 @@ main .sportForAlleBillede1 {
 
     main .okortTekst:nth-of-type(1){
         grid-row: 2;
-        grid-column: 4 / 10;
+        grid-column: 5 / 9;
     }
 
     main .okortTekst:nth-of-type(2){
         grid-row: 3;
-        grid-column: 4 / 10;
+        grid-column: 5 / 9;
     }
 
     main .okortTekst:nth-of-type(3){
         grid-row: 4;
-        grid-column: 4 / 10;
+        grid-column: 5 / 9;
     }
 
     main .oKortBilledeDesktop{
@@ -746,11 +906,11 @@ main .sportForAlleBillede1 {
       grid-column: 1 / 4;
     }
 
-    main .sportForAlleBilledeDesktop{
+    /* main .sportForAlleBilledeDesktop{
       display: block;
       grid-column: 9 / -1;
       width: 100%;
-    }
+    } */
 
     main #toPiger{
       grid-row: 10 / 13;
@@ -764,22 +924,22 @@ main .sportForAlleBillede1 {
       grid-column: 1 / 9;
     }
 
-    main .sportForAlleBilledeDesktop:nth-of-type(1){
+    /* main .sportForAlleBilledeDesktop:nth-of-type(1){
       grid-row: 5 / 7;
       height: 100%;
       object-fit: cover;
-    }
+    } */
 
-    main .sportForAlleBillede1:nth-of-type(2){
+    /* main .sportForAlleBillede1:nth-of-type(2){
       grid-column: 2 / -2;
       grid-row: 7;
       height: 600px;
-    }
+    } */
     
-    main .sportForAlleBillede1:nth-of-type(4){
+    /* main .sportForAlleBillede1:nth-of-type(4){
       grid-column: 2 / -2;
       height: 400px;
-    }
+    } */
 
     main #kanoTur{
       grid-column: 1 / span 4;
