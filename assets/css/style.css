@@ -602,6 +602,7 @@ main .sportForAlleBillede1 {
     }
 
 
+
     /* Media queries for Nyheder */
 
     .Nyheder_side{
@@ -611,11 +612,51 @@ main .sportForAlleBillede1 {
     }
 
 
-    /* main{
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        gap: 10px;
-    } */
+
+    /* Media queries for Træningsløb */
+
+    .traeningsloeb_underside {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 2rem;
+    }
+
+    .traeningsloeb_underside section:nth-of-type(1){
+      grid-column: 3 / 8;
+    }
+
+    .traeningsloeb_underside .placeholderTraeningsloeb{
+      background-image: url(../images/logo/traeningsleob.jpg);
+      background-size: cover;
+      background-position: center;
+      grid-row: 1;
+      grid-column: 8 / 11;
+    }
+
+    .traeningsloeb_underside section:nth-of-type(2){
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-row: 2;
+      grid-column: 3 / 11;
+    }
+
+    .traeningsloeb_underside section:nth-of-type(2) p{
+      margin: 3rem;
+    }
+
+    .traeningsloeb_underside section:nth-of-type(2) .placeholderokortbillede{
+      background-image: url(../images/logo/Kort2.jpg);
+      background-position: center;
+      background-size: cover;
+      grid-column: 1 / 2;
+      grid-row: 1 / 3;
+    }
+
+    
+
+
+
+
 
     main .okort{
         grid-column: 6 / 8;
@@ -785,6 +826,10 @@ main .okort {
   margin: 1rem;
 }
 
+.traeningsloeb_underside h1 {
+  margin: 1rem;
+}
+
 main .fep_2 {
   background-color: var(--clearSky);
   display: flex;
@@ -792,10 +837,12 @@ main .fep_2 {
   margin-bottom: 30px;
 }
 
-.fep_2 img {
-  /* object-position: bottom; */
-  object-fit: cover;
-  height: 200px;
+.traeningsloeb_underside .placeholderokortbillede{
+  background-image: url(../images/logo/Kort2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  width: 100%;
 }
 
 .fep_2 p {
