@@ -435,7 +435,12 @@ h2 {
   height: 200px;
 } */
 
-
+.kontingent_side{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+}
 
 main .kontingentHeader{
   color: var(--freshMint);
