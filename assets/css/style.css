@@ -292,6 +292,14 @@ main .okortbillede{
   object-fit: cover;
 }
 
+.okort_underside .oKortBillede1{
+  background-image: url(../images/logo/Kort3.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+}
+
 main .okort {
   text-align: center;
   color: var(--freshMint);
@@ -838,33 +846,42 @@ main .linksOverskrift {
         grid-column: 5 / 9;
     }
 
-    main .oKortBilledeDesktop{
-        display: block;
-        width: 100%;
-        height: 500px;
-        object-fit: cover;
+    .okort_underside .oKortBillede1{
+      height: 400px;
+      grid-row: 5;
+      grid-column: 4 / 7;
     }
 
-    main .okortbillede{
-        grid-row: 6;
-        grid-column: 7 / 12;
-        height: 500px;
+    .okort_underside .oKortBillede2{
+      background-image: url(../images/logo/KorttegningRebBak.jpg);
+      background-position: center;
+      background-size: cover;
+      height: 400px;
+      grid-row: 5;
+      grid-column: 7 / 10;
     }
     
-    main .oKortBilledeDesktop:nth-of-type(3){
-        grid-row: 5;
-        grid-column: 7 / 12;
+    .okort_underside .oKortBillede3{
+      background-image: url(../images/logo/kvinderKiggerPaaKort.jpg);
+      background-position: center;
+      background-size: cover;
+      height: 400px;
+      grid-row: 6;
+      grid-column: 4 / 7;
     }
 
-    main .oKortBilledeDesktop:nth-of-type(2){
-        grid-row: 5;
-        grid-column: 2 / 7;
+    .okort_underside .oKortBillede4{
+      background-image: url(../images/logo/Kort1.jpg);
+      background-position: center;
+      background-size: cover;
+      height: 400px;
+      grid-row: 6;
+      grid-column: 7 / 10;
     }
 
-    main .oKortBilledeDesktop:nth-of-type(4){
-        grid-row: 6;
-        grid-column: 2 / 7;
-    }
+
+
+
 
     main .sportforalle{
       grid-column: 5 / 9;
