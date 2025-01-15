@@ -369,6 +369,12 @@ main #RSOKerne {
   margin-bottom: 2rem;
 }
 
+.kontakter_underside{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 h2 {
   /* margin-left: 50px; */
   /* color: var(--deepForest); */
@@ -818,7 +824,7 @@ main .linksOverskrift {
 
 
 
-
+    /* Media Queries for O-kort */
 
     .okort_underside{
       display: grid;
@@ -923,12 +929,6 @@ main .linksOverskrift {
       grid-column: 1 / 4;
     }
 
-    /* main .sportForAlleBilledeDesktop{
-      display: block;
-      grid-column: 9 / -1;
-      width: 100%;
-    } */
-
     main #toPiger{
       grid-row: 10 / 13;
     }
@@ -982,6 +982,19 @@ main .linksOverskrift {
 
     main .tabelSektion{
       grid-column: 4 / 10;
+    }
+
+
+    /* Media Queries for Kontakter */
+
+    .kontakter_underside section{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 4rem;
+    }
+
+    .kontakter_underside h2{
+      margin-top: 3rem;
     }
 
   }
