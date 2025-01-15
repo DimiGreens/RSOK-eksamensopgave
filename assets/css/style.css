@@ -33,6 +33,7 @@ h2 {
   font-size: 1.3rem;
   color: var(--deepForest);
   margin: 1rem;
+  max-width: 60ch;
 
 }
 
@@ -601,14 +602,20 @@ main .sportForAlleBillede1 {
     }
 
 
+    /* Media queries for Nyheder */
+
+    .Nyheder_side{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
 
-
-    main{
+    /* main{
         display: grid;
         grid-template-columns: repeat(12, 1fr);
         gap: 10px;
-    }
+    } */
 
     main .okort{
         grid-column: 6 / 8;
