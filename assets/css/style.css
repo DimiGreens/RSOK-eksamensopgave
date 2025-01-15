@@ -179,6 +179,58 @@ input[type="checkbox"]:checked ~ ul {
 
 /* Forside - Main-Start */
 
+/* Mine (Arni's) ændringer på forsiden */
+
+.forside h1{
+  margin: 1rem;
+}
+
+.forside .placeholderForsideBillede1{
+  width: 100%;
+  height: 250px;
+  background-image: url(../images/logo/Two_Bros_Broing.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
+.forside .placeholderForsideBillede2{
+  width: 100%;
+  height: 250px;
+  background-image: url(../images/logo/Old_Man_Helping_Family.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
+.forside .fep_1{
+  background-color: var(--clearSky);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.forside .fep_1 button{
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: darkgray;
+}
+
+.forside .fep_1 button a{
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.forside .placeholderForsideBillede3 {
+  width: 100%;
+  height: 250px;
+  background-image: url(../images/logo/MARABOU.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
 /* Forside - Main-End */
 
 /* Footer-Start */
@@ -411,14 +463,6 @@ main .sportForAlleBillede1 {
   margin: 0px;
 }
 
-/* .Nyhed_3 img {
-    height: 20px;
-    width: 10%;
-    float: right;
-    padding-bottom: 15px;
-    scroll-behavior: smooth;
-} */
-
 .pil_op {
   height: 50px;
   width: 50px;
@@ -435,7 +479,130 @@ main .sportForAlleBillede1 {
 /* Underside: Nyheder - End */
 
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 1000px){
+
+    /* Media query for forsiden */
+
+    .forside{
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 2rem;
+    }
+
+    .forside h1{
+      grid-row: 1;
+      grid-column: 5 / 9;
+    }
+
+
+
+    .forside section:nth-of-type(1){
+      grid-row: 2;
+      grid-column: 3 / 11;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .forside section:nth-of-type(1) p{
+      grid-row: 2;
+      grid-column: 1;
+    }
+
+    .forside .placeholderForsideBillede1{
+      grid-row: 2;
+      grid-column: 2;
+      height: 100%;
+      min-width: 350px;
+    }
+
+
+
+
+    
+    .forside section:nth-of-type(2){
+      grid-row: 3;
+      grid-column: 3 / 11;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .forside section:nth-of-type(2) p{
+      grid-column: 1;
+    }
+
+    .forside section:nth-of-type(2) .placeholderForsideDesktop1{
+      background-image: url(../images/logo/Old_Man_Helping_Family.jpg);
+      background-position: center;
+      background-size: cover;
+      grid-row: 2 / 4;
+      grid-column: 2;
+      height: 100%;
+      min-width: 350px;
+    }
+
+
+
+
+
+    .forside section:nth-of-type(3){
+      grid-row: 4;
+      grid-column: 4 / 10;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .forside section:nth-of-type(3) button{
+      grid-column: 2;
+      grid-row: 2;
+      justify-self: center;
+    }
+
+    .forside section:nth-of-type(3) .placeholderForsideBillede2{
+      background-image: url(../images/logo/familieDerKiggerPåO-kort.jpg);
+      grid-row: 1 / 3;
+    }
+
+
+
+
+    
+    .forside section:nth-of-type(4){
+      grid-row: 5;
+      grid-column: 4 / 10;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .forside section:nth-of-type(4) p{
+      grid-row: 2;
+      grid-column: 1 / -1;
+    }
+
+    .forside section:nth-of-type(4) .placeholderForsideBillede3{
+      grid-row: 3;
+    }
+
+    .forside section:nth-of-type(4) .placeholderForsideBillede4{
+      background-image: url(../images/logo/voksneDamerDerSmilerTilKameraet.jpg);
+      background-size: cover;
+      background-position: top;
+      grid-row: 3;
+      grid-column: 2 / 3;
+    }
+
+
+
+
+    
+    .forside section:nth-of-type(5){
+      grid-row: 6;
+      grid-column: 4 / 10;
+    }
+
+
+
+
 
     main{
         display: grid;
@@ -591,6 +758,8 @@ main .sportForAlleBillede1 {
     main .tabelSektion{
       grid-column: 4 / 10;
     }
+
+  }
 
 main .sportForAlleBilledeDesktop {
   display: none;
@@ -754,50 +923,8 @@ main .forside_billeder {
   /* margin-bottom: 30px; */
 }
 
-main .fep_1 {
-  background-color: var(--clearSky);
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 30px;
-}
-
-.fep_1 img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-
-.forside p, .forside h2 {
-  margin: 1rem;
-}
-
-
-.fep_1 p {
-  margin: 20px;
-  margin-bottom: 0px;
-  margin-top: 10px;
-  /* font-size: 14px; */
-}
-
-.fep_1 button {
-  background-color: #787878;
-  border-radius: 10px;
-  text-align: center;
-  padding: 10px 10px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 10em;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.fep_1 button a {
-  text-decoration: none;
-  color: #FFFFFF;
-}
-
 /* Forside - End */
-=======
+
 .Traeningsloeb_side {
   margin: 0;
 }
