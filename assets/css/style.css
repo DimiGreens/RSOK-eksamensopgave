@@ -46,6 +46,29 @@ p {
 
 /* Header-Start */
 
+/* TEST AF DROPDOWN */
+
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--paleStone);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown2:hover .dropdown-content {
+  display: block;
+}
+
+
+
 header {
   margin: 0;
   padding: 0;
@@ -114,6 +137,10 @@ label {
 .dropdown ul li {
   cursor: pointer;
   margin: 1.5rem;
+}
+
+.NavbarPC{
+  display: none;
 }
 
 /* Kalender */
@@ -541,6 +568,78 @@ main .linksOverskrift {
 
 
 @media screen and (min-width: 1000px){
+
+  .NavbarMobil{
+    display: none;
+  }
+
+  header > img{
+    display: none;
+  }
+
+  .NavbarPC{
+    display: flex;
+    align-items: center;
+  }
+
+  header a img{
+    height: 80px;
+    width: auto;
+    margin: 0 2rem;
+  }
+
+  header .NavbarPC .dropdown2 span{
+    background-color: var(--deepForest);
+    color: white;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border-radius: 8px;
+  }
+
+  header .NavbarPC .dropdown2 .dropdown-content a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: var(--deepForest);
+    padding: 1rem 1rem;
+  }
+  
+  header .NavbarPC nav > a{
+    text-decoration: none;
+    background-color: var(--deepForest);
+    color: white;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border-radius: 8px;
+  }
+
+  header .NavbarPC a{
+    transition: 300ms;
+  }
+
+  header .NavbarPC a:hover{
+    transform: scale(1.1);
+  }
+
+  header .NavbarPC > a:nth-of-type(2){
+    background-color: var(--deepForest);
+    text-decoration: none;
+      color: white;
+      padding: 1rem 2rem;
+      margin: 1rem;
+      border-radius: 8px;
+  }
+
+  header .NavbarPC > a:nth-of-type(3){
+    background-color: var(--deepForest);
+    text-decoration: none;
+      color: white;
+      padding: 1rem 2rem;
+      margin: 1rem;
+      border-radius: 8px;
+  }
+
 
     /* Media query for forsiden */
 
