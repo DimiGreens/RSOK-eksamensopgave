@@ -354,6 +354,7 @@ main .okort {
 
 .for_Alle_Aldre h1{
   margin: 1rem;
+  grid-row: 2;
 }
 
 Main .sportforalle {
