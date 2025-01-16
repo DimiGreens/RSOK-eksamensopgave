@@ -506,8 +506,9 @@ main .linksOverskrift {
   height: 50px;
   width: 50px;
   float: right;
-  padding-bottom: 15px;
+  padding: 1rem;
   border-radius: 50px;
+  background-color: lightgrey;
 }
 
 .pil_op a img {
