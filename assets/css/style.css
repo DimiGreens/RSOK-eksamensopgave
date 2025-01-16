@@ -633,7 +633,7 @@ main .linksOverskrift {
     
     .forside section:nth-of-type(4){
       grid-row: 5;
-      grid-column: 4 / 10;
+      grid-column: 5 / 9;
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 1rem;
@@ -644,16 +644,17 @@ main .linksOverskrift {
       grid-column: 1 / -1;
     }
 
-    .forside section:nth-of-type(4) .placeholderForsideBillede3{
-      grid-row: 3;
+    .forside .placeholderForsideBillede3{
+      grid-row: 6;
+      grid-column: 4 / 7;
     }
 
-    .forside section:nth-of-type(4) .placeholderForsideBillede4{
+    .forside .placeholderForsideBillede4{
       background-image: url(../images/logo/voksneDamerDerSmilerTilKameraet.jpg);
       background-size: cover;
       background-position: top;
-      grid-row: 3;
-      grid-column: 2 / 3;
+      grid-row: 6;
+      grid-column: 7 / 10;
     }
 
 
@@ -661,8 +662,8 @@ main .linksOverskrift {
 
     
     .forside section:nth-of-type(5){
-      grid-row: 6;
-      grid-column: 4 / 10;
+      grid-row: 7;
+      grid-column: 5 / 9;
     }
 
 
