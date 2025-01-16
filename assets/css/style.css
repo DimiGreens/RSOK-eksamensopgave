@@ -315,6 +315,25 @@ main .okort {
   margin-bottom: 3rem;
 }
 
+.for_Alle_Aldre{
+  display: flex;
+  flex-direction: column;
+}
+
+.for_Alle_Aldre section p{
+  margin-bottom: 0;
+}
+
+.for_Alle_Aldre > a{
+  padding: 1rem 2rem;
+  background-color: grey;
+  text-decoration: none;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  justify-self: center;
+}
+
 .for_Alle_Aldre .forAlleAldreBillede3{
   background-image: url(../images/logo/børnDerHarVundetMedaljer.jpg);
   height: 250px;
