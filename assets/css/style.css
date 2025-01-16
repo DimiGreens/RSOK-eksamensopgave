@@ -1024,11 +1024,25 @@ main .linksOverskrift {
     .kontakter_underside section{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      gap: 4rem;
+    }
+
+    .kontakter_underside section article h2{
+      color: black;
+      font-size: 1.2rem;
+    }
+
+    .kontakter_underside section article{
+      margin: 0 2rem;
     }
 
     .kontakter_underside h2{
       margin-top: 3rem;
+    }
+
+    .kontakter_underside section h2{
+      grid-row: 1;
+      grid-column: 1 / 4;
+      justify-self: center;
     }
 
 
