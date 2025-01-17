@@ -110,6 +110,7 @@ label {
 }
 
 .dropdown {
+  /* Fontawesome. Billede: Bars.svg. Tilgængelig her: https://fontawesome.com/icons */
   background-image: url(../images/logo/bars-solid.svg);
   background-position: center;
   background-repeat: no-repeat;
@@ -201,6 +202,7 @@ input[type="checkbox"]:checked ~ ul {
 .forside .placeholderForsideBillede1{
   width: 100%;
   height: 250px;
+  /* Rold Skov Orienteringklub. Tilgængelig her: https: https://www.roldskovok.dk/index.php?page=sider/t-loeb.php */
   background-image: url(../images/logo/Two_Bros_Broing.jpg);
   background-position: top;
   background-size: cover;
@@ -209,6 +211,7 @@ input[type="checkbox"]:checked ~ ul {
 .forside .placeholderForsideBillede2{
   width: 100%;
   height: 250px;
+  /* Rold Skov Orienteringklub. Tilgængelig her: https: https: https://www.roldskovok.dk/index.php?page=sider/voksne-familier.php */
   background-image: url(../images/logo/Old_Man_Helping_Family.jpg);
   background-position: top;
   background-size: cover;
@@ -234,6 +237,7 @@ input[type="checkbox"]:checked ~ ul {
 .forside .placeholderForsideBillede3 {
   width: 100%;
   height: 250px;
+  /* Rold Skov Orienteringklub. Tilgængelig her: https: https://www.roldskovok.dk/index.php?page=sider/velkommen.php */
   background-image: url(../images/logo/MARABOU.jpg);
   background-position: top;
   background-size: cover;
@@ -300,6 +304,7 @@ main .okortbillede{
 }
 
 .okort_underside .oKortBillede1{
+  /* Rold Skov Orienteringklub. Tilgængelig her: https: https://www.roldskovok.dk/index.php?page=sider/o-kort.php */
   background-image: url(../images/logo/Kort3.jpg);
   background-position: center;
   background-size: cover;
@@ -319,6 +324,7 @@ main .okort {
 /* Main underside: Sport for alle aldre */
 
 .for_Alle_Aldre .forAlleAldreBillede1 {
+  /* Rold Skov Orienteringklub. Tilgængelig her: https://www.facebook.com/RoldSkovOK/photos/pb.100063805502355.-2207520000/1979472602345305/?type=3&locale=da_DK */
   background-image: url(../images/logo/voksneDamerDerSmilerTilKameraet.jpg);
   height: 250px;
   width: 100%;
@@ -347,6 +353,7 @@ main .okort {
 }
 
 .for_Alle_Aldre .forAlleAldreBillede3{
+  /* Rold Skov Orienteringklub. Tilgængelig her: https: https://www.roldskovok.dk/index.php?page=sider/boern-unge.php */
   background-image: url(../images/logo/børnDerHarVundetMedaljer.jpg);
   height: 250px;
   width: 100%;
@@ -356,6 +363,7 @@ main .okort {
 }
 
 .for_Alle_Aldre .forAlleAldreBillede5{
+  /* Rold Skov Orienteringklub. Tilgængelig her: https: https://www.roldskovok.dk/index.php?page=sider/rsokkerne.php */
   background-image: url(../images/logo/ældrePåKanotur.jpg);
   height: 250px;
   width: 100%;
@@ -629,6 +637,7 @@ main .linksOverskrift {
     }
 
     .forside section:nth-of-type(2) .placeholderForsideDesktop1{
+      /* Rold Skov Orienteringklub. Tilgængelig her: https: https: https://www.roldskovok.dk/index.php?page=sider/voksne-familier.php */
       background-image: url(../images/logo/Old_Man_Helping_Family.jpg);
       background-position: center;
       background-size: cover;
@@ -660,6 +669,7 @@ main .linksOverskrift {
     }
 
     .forside section:nth-of-type(3) .placeholderForsideBillede2{
+      /* Rold Skov Orienteringsklubs Facebook. Tilgængelig her: https://www.facebook.com/RoldSkovOK/photos/pb.100063805502355.-2207520000/2634626996829859/?type=3 */
       background-image: url(../images/logo/familieDerKiggerPåO-kort.jpg);
       grid-row: 1 / 4;
     }
@@ -687,6 +697,7 @@ main .linksOverskrift {
     }
 
     .forside .placeholderForsideBillede4{
+      /* Rold Skov Orienteringklub. Tilgængelig her: https://www.facebook.com/RoldSkovOK/photos/pb.100063805502355.-2207520000/1979472602345305/?type=3&locale=da_DK */
       background-image: url(../images/logo/voksneDamerDerSmilerTilKameraet.jpg);
       background-size: cover;
       background-position: top;
@@ -728,6 +739,7 @@ main .linksOverskrift {
     }
 
     .traeningsloeb_underside .placeholderTraeningsloeb{
+      /* Rold Skov Orienteringsklubs Facebook. Tilgængelig her: https: https://www.facebook.com/RoldSkovOK/photos/pb.100063805502355.-2207520000/2634634750162417/?type=3 */
       background-image: url(../images/logo/traeningsleob.jpg);
       background-size: cover;
       background-position: center;
@@ -758,6 +770,7 @@ main .linksOverskrift {
     }
 
     .traeningsloeb_underside section:nth-of-type(2) .placeholderokortbillede{
+      /* Rold Skov Orienteringklub. Tilgængelig her: https://www.roldskovok.dk/index.php?page=sider/o-kort.php */
       background-image: url(../images/logo/Kort2.jpg);
       height: 100%;
       background-position: center;
@@ -811,6 +824,7 @@ main .linksOverskrift {
     }
 
     .for_Alle_Aldre .forAlleAldreBillede2{
+      /* Rold Skov Orienteringsklubs Facebook. Tilgængelig her: https://www.facebook.com/RoldSkovOK/photos/pb.100063805502355.-2207520000/2634626996829859/?type=3 */
       background-image: url(../images/logo/familieDerKiggerPåO-kort.jpg);
       background-position: center;
       background-size: cover;
@@ -838,6 +852,7 @@ main .linksOverskrift {
     }
 
     .for_Alle_Aldre .forAlleAldreBillede4{
+      /* Rold Skov Orienteringklub. billede: RSOK-logo. Tilgængelig her: https://www.facebook.com/photo.php?fbid=693300039473507&set=pb.100063805502355.-2207520000&type=3 */
       background-image: url(../images/logo/2GladePiger.jpg);
       background-size: cover;
       background-position: center;
@@ -878,6 +893,7 @@ main .linksOverskrift {
     }
 
     .for_Alle_Aldre .RSOKerneSektionen .forAlleAldreBillede6{
+      /* Rold Skov Orienteringklub. Tilgængelig her: https://www.roldskovok.dk/index.php?page=sider/rsokkerne.php */
       background-image: url(../images/logo/ældrePåTur.jpg);
       background-position: center;
       background-size: cover;
@@ -887,6 +903,7 @@ main .linksOverskrift {
     }
 
     .for_Alle_Aldre .RSOKerneSektionen .forAlleAldreBillede7{
+      /* Rold Skov Orienteringklub. Tilgængelig her: https: https://www.roldskovok.dk/index.php?page=sider/rsokkerne.php */
       background-image: url(../images/logo/ældreDerSpiserMadpakker.jpg);
       background-position: center;
       background-size: cover;
@@ -932,6 +949,7 @@ main .linksOverskrift {
     }
 
     .okort_underside .oKortBillede2{
+      /* Rold Skov Orienteringklub. Tilgængelig her: https: https://www.roldskovok.dk/index.php?page=sider/o-kort.php */
       background-image: url(../images/logo/KorttegningRebBak.jpg);
       background-position: center;
       background-size: cover;
@@ -941,6 +959,7 @@ main .linksOverskrift {
     }
     
     .okort_underside .oKortBillede3{
+      /* Rold Skov Orienteringklub. Tilgængelig her: https: https://www.roldskovok.dk/index.php?page=sider/t-loeb.php */
       background-image: url(../images/logo/kvinderKiggerPaaKort.jpg);
       background-position: center;
       background-size: cover;
@@ -950,6 +969,7 @@ main .linksOverskrift {
     }
 
     .okort_underside .oKortBillede4{
+      /* Rold Skov Orienteringklub. Tilgængelig her: https: https://www.roldskovok.dk/index.php?page=sider/o-kort.php */
       background-image: url(../images/logo/Kort1.jpg);
       background-position: center;
       background-size: cover;
@@ -1109,6 +1129,7 @@ main .fep_2 {
 }
 
 .traeningsloeb_underside .placeholderokortbillede{
+  /* Rold Skov Orienteringklub. Tilgængelig her: https: https://www.roldskovok.dk/index.php?page=sider/o-kort.php */
   background-image: url(../images/logo/Kort2.jpg);
   background-position: center;
   background-size: cover;
@@ -1170,6 +1191,7 @@ main .fep_2 {
 }
 
 .nyt_Medlem_side .placeholder_1{
+  /* Fontawesome. Billede: Hand-shake.svg. Tilgængelig her: https://fontawesome.com/icons */
   background-image: url(../images/logo/handshake-angle-solid.svg);
   background-position: center;
   background-size: cover;
@@ -1179,6 +1201,7 @@ main .fep_2 {
 }
 
 .nyt_Medlem_side .placeholder_2 {
+  /* Fontawesome. Billede: Id-card.svg. Tilgængelig her: https://fontawesome.com/icons */
   background-image: url(../images/logo/id-card-clip-solid.svg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -1188,8 +1211,11 @@ main .fep_2 {
 }
 
 .placeholder_3 {
+    /* Fontawesome. Billede: Circle-regular.svg. Tilgængelig her: https://fontawesome.com/icons */
     background-image: url(./assets/images/logo/circle-regular.svg);
+    /* Fontawesome. Billede: Circle-half-stroke.svg. Tilgængelig her: https://fontawesome.com/icons */
     background-image: url(./assets/images/logo/circle-half-stroke-solid.svg);
+    /* Fontawesome. Billede: Circle-solid.svg. Tilgængelig her: https://fontawesome.com/icons */
     background-image: url(./assets/images/logo/circle-solid.svg);
     display: flex;
     justify-content: center;
@@ -1203,6 +1229,7 @@ main .fep_2 {
 }
 
 .placeholder_4 {
+  /* Fontawesome. Billede: Person-hikinh.svg. Tilgængelig her: https://fontawesome.com/icons */
     background-image: url(../images/logo/person-hiking-solid.svg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -1214,6 +1241,7 @@ main .fep_2 {
 }
 
 .placeholder_5 {
+  /* Fontawesome. Billede: Map.svg. Tilgængelig her: https://fontawesome.com/icons */
     background-image: url(../images/logo/map-location-dot-solid.svg);
     background-size: cover;
     background-repeat: no-repeat;
